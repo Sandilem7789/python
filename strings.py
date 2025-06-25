@@ -55,3 +55,46 @@ print(a / b)  # Output: 2.0
 print(a % b)  # Output: 0
 print(a ** b)  # Output: 100000 (10 raised to the power of 5)
 print(a // b)  # Output: 2 (Floor division)
+
+#OPERATORS ON STRINGS
+print("""
+    Operators on Strings:  
+      """)
+str1 = "Hello"
+str2 = "World"
+
+print("Kuhle lokhu, " + str1 + " " + str2)  # Output: Hello World
+print(str1 * 3)   # Output: HelloHelloHello
+
+#CONTROL STATEMENTS
+print("""
+    CONTROL STATEMENTS: 
+      """)
+
+num1 = -1.5
+if num1 > 0:
+	print("Positive number")
+elif num1 == 0:
+	print("Zero")
+else:
+    print("Negative number")
+    
+
+
+#CONTROL STATEMENTS 2
+print("""
+    CONTROL STATEMENTS 2: Taking inputs
+      """)
+
+numA = float(input("Enter a number: "))
+numB = float(input("Enter another number: "))
+
+if numA > numB:
+    print(f"{numA} is greater than {numB}")
+elif numA < numB:
+    print(f"{numA} is less than {numB}")
+else:
+    print(f"{numA} is equal to {numB}")
+
+sum_result = numA + numB
+print(f"The sum of {numA} and {numB} is {sum_result}")
